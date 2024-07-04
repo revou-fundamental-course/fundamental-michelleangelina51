@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+    <title>Profil Perusahaan</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <span>Ketna</span>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#beranda">Beranda</a></li>
+                <li><a href="#profil">Profil Kami</a></li>
+                <li><a href="#kantor-pusat">Kantor Pusat</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="beranda">
+            <div class="container">
+                <div class="banner-slider">
+                    <div class="slide">
+                        <img src="image/jacket1.jpg" alt="Slide 1">
+                    </div>
+                    <div class="slide">
+                        <img src="image/putih.jpg" alt="Slide 2">
+                    </div>
+                    <div class="slide">
+                        <img src="image/jaket5.jpg" alt="Slide 3">
+                    </div>
+                    <div class="slide">
+                        <img src="image/kuning.jpg" alt="Slide 4">
+                    </div>
+                </div>
+                <h1>Hai <span id="nama">Nama</span></h1>
+                <p>Temukan jaket impian Anda di perusahaan kami yang menawarkan koleksi jaket berkualitas tinggi, dari gaya
+                    klasik hingga yang paling trendi. Jaket bukan hanya pelindung dari cuaca, tetapi juga simbol gaya dan ekspresi diri Anda.
+                    Dengan berbagai pilihan untuk setiap suasana dan kegiatan, kami hadir untuk membantu Anda membuat pernyataan gaya yang tak terlupakan.</p>
+            </div>
+        </section>
+
+        <section id="profil">
+            <div class="container">
+                <h2>Profil Kami</h2>
+                <div class="profile-banner">
+                    <img src="image/jaket.jpg" alt="Banner Foto">
+                </div>
+                <div class="tentang-perusahaan">
+                    <h3>Tentang Perusahaan</h3>
+                    <p>Selamat datang di Ketna, tempat di mana gaya bertemu dengan kualitas. Kami adalah perusahaan yang berfokus pada produksi jaket berkualitas tinggi yang dirancang untuk memberikan kenyamanan dan kehangatan di setiap kesempatan.</p>
+                </div>
+                <div class="visi-misi">
+                    <h3>Visi dan Misi Perusahaan</h3>
+                    <div class="visi">
+                        <h4>Visi Kami</h4>
+                        <p>Visi kami adalah menjadi pemimpin dalam industri fashion dengan menyediakan jaket yang tidak hanya stylish, tetapi juga fungsional dan tahan lama. Kami percaya bahwa setiap orang berhak mendapatkan produk yang terbaik, dan itulah yang kami usahakan setiap hari.</p>
+                    </div>
+                    <div class="misi">
+                        <h4>Misi Kami</h4>
+                        <ul>
+                            <li><strong>Inovasi:</strong> Menggabungkan desain modern dengan teknologi terbaru untuk menciptakan jaket yang selalu up-to-date.</li>
+                            <li><strong>Kualitas:</strong> Memastikan setiap jaket yang kami produksi melewati standar kualitas tertinggi.</li>
+                            <li><strong>Kepuasan Pelanggan:</strong> Memberikan pelayanan terbaik untuk memastikan pelanggan kami selalu puas dengan produk yang mereka terima.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="kantor-pusat">
+            <div class="container">
+                <h2>Kantor Pusat Kami</h2>
+                <div class="office-info">
+                    <div class="office-image">
+                        <img src="image/lokasi 1.jpg" alt="Kantor Pusat" class="image">
+                    </div>
+                    <div class="office-details">
+                        <p>Kantor pusat kami berlokasi di tengah kota yang strategis dan mudah diakses. Kami menyediakan lingkungan kerja yang nyaman dan modern untuk mendukung produktivitas dan inovasi.</p>
+                        <p>Fasilitas kantor kami meliputi ruang kerja yang luas, ruang rapat yang dilengkapi dengan teknologi terkini, dan area rekreasi untuk karyawan.</p>
+                        <address>
+                            Jl. Ketna No. 19<br>
+                            Kota Jakarta Pusat, Provinsi DKI Jakarta<br>
+                            Negara Indonesia<br>
+                            <a href="tel:+620123456789">+62 0123 456789</a><br>
+                            <a href="mailto:info@perusahaanketna.com">info@perusahaanketna.com</a>
+                        </address>
+                    </div>
+                </div>
+            </div>
+        </section>         
+
+        <section id="kontak">
+            <div class="container">
+                <h2>Kontak Kami</h2>
+                <div class="form-container">
+                    <form id="contact-form">
+                        <label for="form_nama">Nama:</label>
+                        <input type="text" id="form_nama" name="nama" required>
+                        
+                        <label for="tanggal_lahir">Tanggal Lahir:</label>
+                        <input type="date" id="tanggal_lahir" name="tanggal_lahir" required>
+                        
+                        <label for="jenis_kelamin">Jenis Kelamin:</label>
+                        <select id="jenis_kelamin" name="jenis_kelamin" required>
+                            <option value="">Pilih Jenis Kelamin</option>
+                            <option value="laki-laki">Laki-laki</option>
+                            <option value="perempuan">Perempuan</option>
+                        </select>
+                        
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                        
+                        <label for="pesan">Pesan:</label>
+                        <textarea id="pesan" name="pesan" required></textarea>
+                        
+                        <button type="submit">Kirim Pesan</button>
+                    </form>
+                </div>
+                
+                <div id="output">
+                    <h3>Terima Kasih</h3>
+                    <p><strong>Nama:</strong> <span id="output_nama"></span></p>
+                    <p><strong>Tanggal Lahir:</strong> <span id="output_tanggal_lahir"></span></p>
+                    <p><strong>Jenis Kelamin:</strong> <span id="output_jenis_kelamin"></span></p>
+                    <p><strong>Email:</strong> <span id="output_email"></span></p>
+                    <p><strong>Pesan:</strong> <span id="output_pesan"></span></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <nav>
+                <ul class="footer-nav-links">
+                    <li><a href="#beranda">Beranda</a></li>
+                    <li><a href="#profil">Profil Kami</a></li>
+                    <li><a href="#kantor-pusat">Kantor Pusat</a></li>
+                    <li><a href="#kontak">Kontak</a></li>
+                </ul>
+            </nav>
+            <p>&copy; 2024 Perusahaan Ketna. Seluruh hak cipta.</p>
+            <p>Waktu saat ini: <span id="current-time"></span></p>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/erigostore" target="_blank" class="social-icon"><i class="fa fa-instagram"></i></a>
+                <a href="https://www.facebook.com/erigostoreapparel" target="_blank" class="social-icon"><i class="fa fa-facebook-f"></i></a>
+                <a href="https://www.twitter.com/erigostore" target="_blank" class="social-icon"><i class="fa fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
